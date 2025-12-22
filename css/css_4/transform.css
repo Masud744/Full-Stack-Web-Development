@@ -1,0 +1,59 @@
+section{
+    margin-top: 100px;
+}
+
+div{
+    height: 40px;
+    width: 300px;
+    background-color: rgb(89, 89, 212);
+    margin: 30px 50px 20px 30px;
+    border: 2px solid black;
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+div:nth-of-type(2n){
+    background-color: greenyellow;
+}
+
+div:nth-of-type(3n){
+    background-color: rgb(37, 219, 243);
+}
+
+.One{
+    transform: rotate(-45deg);
+}
+
+.Two{
+    transform: skew(30deg);
+}
+.Four{
+    transform: rotate(30deg) translateX(100px);
+}
+
+.Three{
+    transform: scale(0.8);
+    box-shadow: 5px 5px 35px rgb(164, 56, 226);
+    transition: all 0.3s ease;
+    position: relative; 
+}
+
+.Three:hover{
+    transform: scale(1);
+    background-color: greenyellow;
+    color: transparent; 
+}
+
+.Three:hover::before{
+    content: "THREE"; 
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border-radius: 25px;
+    text-shadow: 2px 2px 5px rgb(45, 0, 248);
+    box-shadow: 5px 5px 35px rgb(172, 8, 57);
+}

@@ -1,0 +1,163 @@
+
+
+/*for all over the whole code*/
+* {
+    font-family:'Courier New', Courier, monospace;
+}
+
+h1{
+    color: #b92b27;
+}
+
+
+/*for id attributes*/
+#login{
+
+    background-color: rgb(221, 143, 25);
+    color: white;
+
+}
+
+/*for id attributes*/
+#signup{
+    background-color: rgb(67, 166, 228);
+    color: white;
+}
+
+
+/*for class attributes*/
+.Upvote{
+    background-color: rgb(5, 122, 83);
+    color: white;
+}
+
+
+/*if i want i also add a id to the attribues if i dont want to use class*/
+#Hello{
+    background-color: rgb(11, 219, 150);
+    color: white;
+}
+
+#Answer{
+    background-color: #b92b27;
+    color: white;
+}
+
+/*for id attributes in div where in a div function every single things can be styled css*/
+#myid{
+   color: rgb(214, 15, 15);
+}
+
+/* descendant selector */
+
+.post a{
+    color: rgb(202, 52, 52);
+    background-color: yellow;
+}
+
+
+
+#hi{
+    color: rgb(202, 52, 52);
+    background-color: yellow;
+}
+
+
+/*multiple selector*/
+/*<nav>
+        <ul>
+          <li><a href="/home">Home</a></li>
+          <li><a href="/following">Following</a></li>
+          <li><a href="/answer">Answer</a></li>
+          <li><a href="/spaces">Spaces</a></li>
+        </ul>
+      </nav>*/
+nav ul li a {
+    color: orange;
+}
+
+/*child conbinator selector*/
+/*div>
+        <input type="text" placeholder="username" />
+        <input type="password" placeholder="password" />
+      </div */
+
+      /*disadvantage we can go only one level where in multiple selector we can go to any level*/
+ div > input{
+    background-color: rgb(190, 218, 247);
+    color:  rgb(235, 11, 11);
+}
+
+/*we can write this thing like multiple selector also which is more effective*/
+/*div > input{
+    background-color: rgb(190, 218, 247);
+    color:  rgb(235, 11, 11);
+}*/
+
+/*moral of the story : child selector (where only one level will be affected)
+ descendant selector (where we can go to any level but we have to create a class or id)
+ multiple selector (where we can go to any level without creating any class or id)
+*/
+
+/*type attribute selector ? is nessacerry*/
+
+/*selectors priority order when it comes for a same attribute
+1. Id > class > element */
+
+
+/*Pseudo class selector*/
+
+/*hover means when we put our mouse pointer on that element then that element 
+will be affected*/
+
+input:hover{
+    background-color: #b92b27;
+    color: yellowgreen;
+}
+
+button:hover{
+    background-color: #40d3b3;
+    color: rgb(27, 104, 68);
+}
+
+h3:hover{
+    color: rgb(42, 105, 84);
+}
+
+
+/*active means when we click on that element then that element will be affected*/
+
+button:active{
+    background-color: rgb(67, 166, 228);
+    color: yellowgreen;
+    font-weight: bold;
+    
+}
+
+/*Checked means when we select that radio button or checkbox then that element will be
+affected*/
+
+/* Yes select korle red & bold */
+input[type="radio"]#yes:checked + label {
+  color: red;
+  font-weight: bold;
+}
+
+/* No select korle green & bold */
+input[type="radio"]#no:checked + label {
+  color: green;
+  font-weight: bold;
+}
+
+h1::first-letter{
+    color: rgb(112, 202, 52);
+}
+
+
+p::first-line{
+    color: rgb(255, 0, 13);
+}
+
+p::selection{
+    background-color: darkgreen;
+}

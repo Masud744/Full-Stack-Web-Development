@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+    text-decoration: underline;
+    letter-spacing: 10px;
+    font-family:fantasy;
+}
+
+h2{ 
+    text-align: center;
+    font-weight: normal;
+    text-decoration: double red overline;
+}
+
+h3{
+    text-align: center;
+    font-weight: normal;
+    text-decoration: wavy underline blue;
+}
+
+p{
+    text-align: justify;
+    line-height: 2;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    
+}
+
+a{
+    text-decoration: none;
+}

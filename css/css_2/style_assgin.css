@@ -1,0 +1,33 @@
+*{
+    font-family: 'Courier New';
+}
+
+h1{
+    color: #1b74e4;
+}
+
+#hi button {
+    color: black;
+    background-color: aqua;
+}
+
+#hello button {
+    color: white;
+    background-color: black;
+}
+
+#hello button:hover{
+    color: white;
+    background-color: rgb(116, 3, 3);
+}
+
+#hello label{
+    color: black;
+    background-color: white;
+}
+
+#hi button:hover {
+    color: black;
+    background-color: rgb(147, 23, 179);
+
+}

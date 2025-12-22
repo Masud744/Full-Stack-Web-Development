@@ -1,0 +1,13 @@
+div{
+    height: 100px;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: rgb(53, 53, 177);
+    transition: margin-top 2s ease-in-out 0.5s ;
+}
+
+div:hover{
+    background-color: rgb(72, 158, 72);
+    margin-top: 400px;
+}
